@@ -1,0 +1,37 @@
+uuid: 810fe77e-e66c-4c20-addd-9d84db2c25e3
+langcode: en
+status: true
+dependencies:
+  module:
+    - ldap_authentication
+id: config_sync.module.ldap_authentication
+snapshotSet: config_sync
+extensionType: module
+extensionName: ldap_authentication
+items:
+  -
+    collection: ''
+    name: ldap_authentication.settings
+    data:
+      sids: {  }
+      authenticationMode: 1
+      loginUIUsernameTxt: ''
+      loginUIPasswordTxt: ''
+      ldapUserHelpLinkUrl: ''
+      ldapUserHelpLinkText: ''
+      emailOption: 3
+      emailUpdate: 1
+      emailTemplateHandling: none
+      emailTemplate: '@username@example.com'
+      emailTemplateUsageResolveConflict: false
+      emailTemplateUsageNeverUpdate: false
+      emailTemplateUsagePromptUser: false
+      emailTemplateUsageRedirectOnLogin: false
+      emailTemplateUsagePromptRegex: '.*@example\\.com'
+      passwordOption: 3
+      allowOnlyIfTextInDn: {  }
+      excludeIfTextInDn: {  }
+      excludeIfNoAuthorizations: null
+      langcode: en
+      _core:
+        default_config_hash: hSFOSjTAPcCBordJmChil6mui8q7uLwYfc5STlXL0yY
